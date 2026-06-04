@@ -612,8 +612,8 @@ export default function App() {
                         className={`faq-item ${openQuestion === item.q ? 'open' : ''}`}
                       >
                         <div className="faq-q" onClick={() => toggleFAQ(item.q)}>
-                          <span className="faq-q-text">{item.q}</span>
-                          <span className="faq-chevron">▾</span>
+                           <span className="faq-q-text">{item.q}</span>
+                           <span className="faq-chevron">▾</span>
                         </div>
                         <div className="faq-a" style={{ display: openQuestion === item.q ? 'block' : 'none' }}>
                           <div className="faq-a-inner">

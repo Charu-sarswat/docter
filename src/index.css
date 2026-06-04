@@ -73,7 +73,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;padding:1rem var(--section-p
 
 /* ===== HERO ===== */
 .hero{
-  min-height:100vh;display:grid;grid-template-columns:1fr 1fr;align-items:center;
+  min-height:110vh;display:grid;grid-template-columns:1fr 1fr;align-items:center;
   padding:8rem var(--section-pad-x) 5rem;gap:4rem;position:relative;overflow:hidden;
   width:100%;max-width:100%;
   background-image:url('/image.png');background-size:cover;background-repeat:no-repeat;background-position:center center
@@ -93,7 +93,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;padding:1rem var(--section-p
   color:#0099BB;margin-bottom:1.5rem;letter-spacing:.04em;text-transform:uppercase;
   flex-wrap:wrap;max-width:100%
 }
-.hero-eyebrow::before{content:'';width:6px;height:6px;border-radius:50%;background:#00D4FF;animation:pulse 2s infinite;flex-shrink:0}
+
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
 
 .hero h1{font-family:'Poppins',sans-serif;font-size:clamp(1.6rem,5vw,4.2rem);font-weight:800;line-height:1.1;letter-spacing:-.03em;margin-bottom:1.5rem;word-break:break-word}
@@ -126,7 +126,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;padding:1rem var(--section-p
     gap:2rem;
     background-size:cover;
     background-position:center center;
-    min-height:auto;
+    min-height:100vh;
   }
   .hero::before{
     background:linear-gradient(180deg,rgba(255,255,255,0.95) 0%,rgba(255,255,255,0.88) 60%,rgba(255,255,255,0.75) 100%);
