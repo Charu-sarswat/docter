@@ -263,56 +263,74 @@ export default function App() {
         </p>
         <div className="services-grid">
           <div className="service-card">
-            <div className="service-icon bg-pink">🩺</div>
-            <h3>Medical Dermatology</h3>
+            <div className="service-header">
+              <div className="service-icon bg-pink">🩺</div>
+              <h3>Medical Dermatology</h3>
+            </div>
             <p>Diagnosis and treatment of acne, eczema, psoriasis, vitiligo, urticaria, fungal infections, and all chronic skin conditions.</p>
             <span className="service-tag">Clinical</span>
           </div>
           <div className="service-card">
-            <div className="service-icon bg-blue">✨</div>
-            <h3>Aesthetic Treatments</h3>
+            <div className="service-header">
+              <div className="service-icon bg-blue">✨</div>
+              <h3>Aesthetic Treatments</h3>
+            </div>
             <p>Botox, dermal fillers, chemical peels, PRP therapy, microneedling, HydraFacial, and anti-aging skin rejuvenation protocols.</p>
             <span className="service-tag">Aesthetics</span>
           </div>
           <div className="service-card">
-            <div className="service-icon bg-green">💇</div>
-            <h3>Hair & Scalp Care</h3>
+            <div className="service-header">
+              <div className="service-icon bg-green">💇</div>
+              <h3>Hair & Scalp Care</h3>
+            </div>
             <p>Treatment of all hair loss types — androgenetic alopecia, alopecia areata, telogen effluvium — with PRP, medications, and mesotherapy.</p>
             <span className="service-tag">Trichology</span>
           </div>
           <div className="service-card">
-            <div className="service-icon bg-purple">💡</div>
-            <h3>Laser Treatments</h3>
+            <div className="service-header">
+              <div className="service-icon bg-purple">💡</div>
+              <h3>Laser Treatments</h3>
+            </div>
             <p>Q-switched laser, fractional CO2, diode laser hair removal, carbon laser facial, and laser for pigmentation, scars, and vascular lesions.</p>
             <span className="service-tag">Technology</span>
           </div>
           <div className="service-card">
-            <div className="service-icon bg-orange">🧴</div>
-            <h3>Hair Transplantation</h3>
+            <div className="service-header">
+              <div className="service-icon bg-orange">🧴</div>
+              <h3>Hair Transplantation</h3>
+            </div>
             <p>FUE hair transplant by a Fellowship-trained surgeon. Natural results for male and female pattern baldness and hairline restoration.</p>
             <span className="service-tag">Surgical</span>
           </div>
           <div className="service-card">
-            <div className="service-icon bg-yellow">🛡️</div>
-            <h3>Skin Cancer Screening</h3>
+            <div className="service-header">
+              <div className="service-icon bg-yellow">🛡️</div>
+              <h3>Skin Cancer Screening</h3>
+            </div>
             <p>Dermoscopy-assisted skin lesion evaluation, mole mapping, and early detection of suspicious skin lesions.</p>
             <span className="service-tag">Preventive</span>
           </div>
           <div className="service-card">
-            <div className="service-icon bg-pink">🌿</div>
-            <h3>Customised Skincare</h3>
+            <div className="service-header">
+              <div className="service-icon bg-pink">🌿</div>
+              <h3>Customised Skincare</h3>
+            </div>
             <p>Personalised skincare routines with medical-grade actives — retinoids, vitamin C, SPF, AHAs — tailored to your skin type and goals.</p>
             <span className="service-tag">Prescription</span>
           </div>
           <div className="service-card">
-            <div className="service-icon bg-blue">🔬</div>
-            <h3>STI / STD Management</h3>
+            <div className="service-header">
+              <div className="service-icon bg-blue">🔬</div>
+              <h3>STI / STD Management</h3>
+            </div>
             <p>Confidential diagnosis, testing, and treatment of sexually transmitted infections with complete privacy and sensitivity.</p>
             <span className="service-tag">Confidential</span>
           </div>
           <div className="service-card">
-            <div className="service-icon bg-green">💉</div>
-            <h3>Intralesional Therapy</h3>
+            <div className="service-header">
+              <div className="service-icon bg-green">💉</div>
+              <h3>Intralesional Therapy</h3>
+            </div>
             <p>Steroid injections for alopecia areata, keloids, hypertrophic scars, and cystic acne for rapid targeted improvement.</p>
             <span className="service-tag">In-Clinic</span>
           </div>
